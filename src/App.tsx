@@ -20,7 +20,7 @@ function App(): React.JSX.Element {
             </ol>
             <Button
                 onClick={() => {
-                    console.log("I am logged");
+                    console.log("Hello World!");
                 }}
             >
                 Log Hello World
