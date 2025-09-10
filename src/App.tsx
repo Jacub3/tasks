@@ -22,9 +22,7 @@ function App(): React.JSX.Element {
                 onClick={() => {
                     console.log("Hello World!");
                 }}
-            >
-                Log Hello World
-            </Button>
+            ></Button>
             <Container>
                 <Row>
                     <Col>
