@@ -10,7 +10,7 @@ function App(): React.JSX.Element {
             </header>
             <h1>Hello World</h1>
             <img
-                src="C:\Users\ellio\OneDrive\Desktop\tasks\src\download.jpg"
+                src="...\assets\download.jpg"
                 alt="A picture of my favorite character"
             />
             <ol>
@@ -22,7 +22,9 @@ function App(): React.JSX.Element {
                 onClick={() => {
                     console.log("Hello World!");
                 }}
-            ></Button>
+            >
+                Log Hello World
+            </Button>
             <Container>
                 <Row>
                     <Col>
@@ -44,11 +46,6 @@ function App(): React.JSX.Element {
                                 marginTop: "10px",
                             }}
                         />
-                    </Col>
-                    <Col>
-                        Second column. You can put whatever you want in here,
-                        and it will be on the right side. Maybe try adding an
-                        image?
                     </Col>
                 </Row>
             </Container>
