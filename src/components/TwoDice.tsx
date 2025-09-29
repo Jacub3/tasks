@@ -41,7 +41,7 @@ export function TwoDice(): React.JSX.Element {
                     "Lose"
                 : match ?
                     "Win"
-                :   "Lose"}
+                :   ""}
             </span>
         </div>
     );
