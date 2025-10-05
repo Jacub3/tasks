@@ -51,16 +51,12 @@ export function ChooseTeam(): React.JSX.Element {
                     ))}
                 </Col>
                 <Col>
-                    {" "}
-                    {team.map((member: string) => (
-                        <li key={member}>{member}</li>
-                    ))}
-                </Col>
-                <Col>
                     <strong>Team:</strong>
-                    {team.map((member: string) => (
-                        <li key={member}>{member}</li>
-                    ))}
+                    <ul>
+                        {team.map((member: string) => (
+                            <li key={member}>{member}</li>
+                        ))}
+                    </ul>
                     <Button onClick={clearTeam}>Clear Team</Button>
                 </Col>
             </Row>
